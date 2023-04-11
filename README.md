@@ -19,3 +19,10 @@ poetry run main
 export OPENAI_API_KEY="..."
 ```
 
+## Will need to setup SerAPI key for examples 4, etc.
+
+```.sh
+export SERPAPI_API_KEY="..."
+```
+
+export SERPAPI_API_KEY=059fbdcad93649cdb0c1726ce1ac9fb34579f2654ca1193fe2d2f15d74ef4935
