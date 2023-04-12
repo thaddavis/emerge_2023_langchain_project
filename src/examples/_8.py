@@ -1,7 +1,7 @@
-# TLDR
-"""Chat Prompt Template"""
-
+#TLDR
+"""Chains with Chat Models"""
 from langchain.chat_models import ChatOpenAI
+from langchain import LLMChain
 from langchain.prompts.chat import (
     ChatPromptTemplate,
     SystemMessagePromptTemplate,
@@ -15,9 +15,9 @@ def main():
     system_message_prompt = SystemMessagePromptTemplate.from_template(template)
     human_template="{text}"
     human_message_prompt = HumanMessagePromptTemplate.from_template(human_template)
-
     chat_prompt = ChatPromptTemplate.from_messages([system_message_prompt, human_message_prompt])
 
-    # get a chat completion from the formatted messages
-    res = chat(chat_prompt.format_prompt(input_language="English", output_language="French", text="I love programming.").to_messages())
+    chain = LLMChain(llm=chat, prompt=chat_prompt)
+    res = chain.run(input_language="English", output_language="French", text="I love programming.")
     print(res)
+    # -> "J'aime programmer."
