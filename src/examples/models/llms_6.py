@@ -1,3 +1,6 @@
+# TLDR
+"""InMemoryCache"""
+
 import time
 from langchain.llms import OpenAI
 import langchain
