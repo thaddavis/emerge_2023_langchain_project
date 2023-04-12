@@ -1,5 +1,6 @@
 #TLDR
 """Chains with Chat Models"""
+
 from langchain.chat_models import ChatOpenAI
 from langchain import LLMChain
 from langchain.prompts.chat import (
