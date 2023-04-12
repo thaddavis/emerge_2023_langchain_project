@@ -1,3 +1,6 @@
+# TLDR
+"""Intro to some of the properties and methods of a Base LLM class"""
+
 from langchain.llms.base import LLM
 from typing import Optional, List, Mapping, Any
 
