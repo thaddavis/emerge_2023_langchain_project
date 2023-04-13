@@ -1,3 +1,6 @@
+# TLDR
+"""Character Text Splitter"""
+
 from langchain.text_splitter import CharacterTextSplitter
 
 # This is a long document we can split up.
