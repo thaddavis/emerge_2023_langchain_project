@@ -14,6 +14,7 @@ google-search-results = "^2.4.2"
 chromadb = "^0.3.21"
 tiktoken = "^0.3.3"
 faiss-cpu = "^1.7.3"
+nltk = "^3.8.1"
 
 [tool.poetry.scripts]
 main = "src.smoketest:main" # like the `scripts` key in package.json files
@@ -25,7 +26,7 @@ prompt_lvl_2 = "src.examples.prompts.how_to._7:main"
 selectors = "src.examples.prompts.selectors._5:main"
 output_parsers = "src.examples.prompts.output_parsers._6:main"
 indexers = "src.examples.indexers.getting_started._2:main"
-text_splitters = "src.examples.text_splitters._5:main"
+text_splitters = "src.examples.text_splitters._6:main"
 
 [build-system]
 requires = ["poetry-core"]
