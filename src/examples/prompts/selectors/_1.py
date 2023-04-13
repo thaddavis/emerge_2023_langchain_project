@@ -5,7 +5,6 @@ from langchain.prompts.example_selector.base import BaseExampleSelector
 from typing import Dict, List
 import numpy as np
 
-
 class CustomExampleSelector(BaseExampleSelector):
     
     def __init__(self, examples: List[Dict[str, str]]):
