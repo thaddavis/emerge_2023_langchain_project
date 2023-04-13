@@ -23,4 +23,4 @@ def main():
     output = model(_input)
 
     res = output_parser.parse(output)
-    print('res', res)
+    print(res)
