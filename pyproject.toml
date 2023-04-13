@@ -17,6 +17,7 @@ main = "src.smoketest:main" # like the `scripts` key in package.json files
 test = "src.examples.getting_started._1:main"
 nxt_lvl = "src.examples.models.llms_9:main"
 chat_lvl = "src.examples.chat_models.how_to._3:main"
+prompt_lvl = "src.examples.prompts._2:main"
 
 [build-system]
 requires = ["poetry-core"]
