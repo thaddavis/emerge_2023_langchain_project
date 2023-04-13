@@ -23,7 +23,7 @@ chat_lvl = "src.examples.chat_models.how_to._3:main"
 prompt_lvl = "src.examples.prompts._3:main"
 prompt_lvl_2 = "src.examples.prompts.how_to._7:main"
 selectors = "src.examples.prompts.selectors._5:main"
-output_parsers = "src.examples.prompts.output_parsers._1:main"
+output_parsers = "src.examples.prompts.output_parsers._2:main"
 
 [build-system]
 requires = ["poetry-core"]
