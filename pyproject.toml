@@ -16,6 +16,7 @@ google-search-results = "^2.4.2"
 main = "src.smoketest:main" # like the `scripts` key in package.json files
 test = "src.examples.getting_started._1:main"
 nxt_lvl = "src.examples.models.llms_9:main"
+chat_lvl = "src.examples.chat_models.getting_started._1:main"
 
 [build-system]
 requires = ["poetry-core"]
