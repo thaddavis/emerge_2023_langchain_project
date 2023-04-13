@@ -1,3 +1,6 @@
+# TLDR
+"""Getting Started With Chat Models"""
+
 from langchain.chat_models import ChatOpenAI
 from langchain import PromptTemplate, LLMChain
 from langchain.prompts.chat import (
