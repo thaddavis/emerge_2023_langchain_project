@@ -20,7 +20,7 @@ test = "src.examples.getting_started._1:main"
 nxt_lvl = "src.examples.models.llms_9:main"
 chat_lvl = "src.examples.chat_models.how_to._3:main"
 prompt_lvl = "src.examples.prompts._3:main"
-prompt_lvl_2 = "src.examples.prompts.how_to._4:main"
+prompt_lvl_2 = "src.examples.prompts.how_to._5:main"
 
 [build-system]
 requires = ["poetry-core"]
