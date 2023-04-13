@@ -1,5 +1,7 @@
-from langchain import PromptTemplate
+# TLDR
+"""Different ways of using the PromptTemplate class"""
 
+from langchain import PromptTemplate
 
 def main():
     # An example prompt with no input variables
