@@ -25,6 +25,7 @@ prompt_lvl_2 = "src.examples.prompts.how_to._7:main"
 selectors = "src.examples.prompts.selectors._5:main"
 output_parsers = "src.examples.prompts.output_parsers._6:main"
 indexers = "src.examples.indexers.getting_started._2:main"
+text_splitters = "src.examples.text_splitters._2:main"
 
 [build-system]
 requires = ["poetry-core"]
